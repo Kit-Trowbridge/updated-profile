@@ -1,0 +1,29 @@
+.btn {
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  padding: 5px 15px;
+  border: 1.5px dotted var(--cherry-red);
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px rgba(255, 35, 72, 0.5);
+}
+
+.btn:hover {
+  animation: expand 0.5s forwards;
+  border: 1.5px dashed var(--brighter-cherry);
+  color: var(--brighter-cherry);
+  cursor: url(../images/black-red-mouse.png), pointer;
+}
+
+.btn p {
+  margin: 0;
+}
+
+.btn p:hover {
+  margin: 0;
+  /* color: var(--brighter-cherry) */
+}
+
+.btn:active {
+  color: yellow;
+}

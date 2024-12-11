@@ -1,0 +1,10 @@
+.icon {
+  font-size: 25px;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.icon:hover {
+  color: var(--brighter-cherry);
+  animation: pop-up 0.5s;
+}

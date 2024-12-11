@@ -1,0 +1,11 @@
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0.5px solid var(--cherry-red);
+    object-fit: cover;
+  }
+
+.avatar:hover {
+  animation: spin 1s forwards;
+}

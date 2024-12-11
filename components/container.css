@@ -1,0 +1,14 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.icon-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-plate {
+  margin-bottom: 20px;
+}
