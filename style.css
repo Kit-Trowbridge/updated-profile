@@ -14,11 +14,12 @@ body {
   font-size: 18px;
   text-align: center;
   padding: 20px;
-  /* background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(252, 250, 238, .9)), url(images/stars-falling.png); */
-  /* background-image: linear-gradient(rgba(255, 35, 72, 0.5), rgba(252, 250, 238, 0.8)); */
-  background-image: linear-gradient(rgba(255, 35, 72, 0.5), rgba(252, 250, 238, 0.8)), url(images/stars-falling.png);
+  background-image: linear-gradient(rgba(255, 35, 72, 0.5), rgba(252, 250, 238, 0.8)), url(images/kitkat1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  /* background-image: linear-gradient(rgba(255, 35, 72, 0.5), rgba(252, 250, 238, 0.8)), url(images/stars-falling.png);
   background-repeat: repeat;
-  background-size: 500px;
+  background-size: 500px; */
 }
 
 h1 {
